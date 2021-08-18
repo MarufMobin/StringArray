@@ -32,3 +32,11 @@ if( friends.indexOf('hassan') != -1 ){
 if(friends.includes('hassan')){
     console.log("Hassan is Here Seriusly");
 }
+
+// concat 
+
+const fist = [ 22, 2, 58, 54, 55, 59, 71, 655 ];
+const second = [ 411, 15, 596, 21, 11, 52, 64 ];
+
+const conCat = fist.concat(second);
+console.log(conCat);
